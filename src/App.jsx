@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Suspense, lazy } from "react";
 
-const RegisterUser = lazy(() => import("./pages/register/register.jsx"));
+const RegisterUser = lazy(() => import("./pages/register.jsx"));
 
 function App() {
   return (

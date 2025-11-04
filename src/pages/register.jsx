@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { db } from "../../firebase/firebase.jsx";
+import { db } from "../firebase/firebase.jsx";
 import { collection, query, where, getDocs, addDoc } from "firebase/firestore";
 import bcrypt from "bcryptjs";
 import {
@@ -14,7 +14,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Toaster, toast } from "react-hot-toast";
-
 
 export default function registerUser() {
   const [formData, setFormData] = useState({
@@ -37,11 +36,11 @@ export default function registerUser() {
 
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!emailRegex.test(email)) {
-      toast.error("Please enter a valid email address!"); 
+      toast.error("Please enter a valid email address!");
       return;
     }
 
-    const phoneRegex = /^[0-9]{10}$/; 
+    const phoneRegex = /^[0-9]{10}$/;
     if (!phoneRegex.test(phone)) {
       toast.error("Please enter a valid 10-digit phone number!");
       return;
