@@ -8,7 +8,7 @@ import okBoxImg from "/okbox.png";
 import nextBoxImg from "/nextbox.png"; 
 import finish from "/finish.png";
 
-const jakartaFont = { fontFamily: '"Plus Jakarta Sans", sans-serif' };
+const jakartaFont = { fontFamily: '"Super Squad", sans-serif' };
 
 export default function HintBox() {
   const [index, setIndex] = useState(0); 
@@ -152,7 +152,7 @@ export default function HintBox() {
           >
             <h2 className="text-4xl md:text-5xl font-extrabold uppercase tracking-widest text-green-500 mb-8"
                 style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.2)', padding: '15px 30px', margin: '10px 0' }}>
-              CORRECT ANSWER !
+              CORRECT ANSWER 
             </h2>
 
             <div className="flex justify-center items-center mt-6">

@@ -11,9 +11,12 @@ function App() {
             <main className="flex min-h-screen flex-col items-center justify-center p-4">
                 Flag in the Blue
                  <Button>DSCxOC</Button>
-                <HintBox /> 
-                {/* <CorrectAnswerPopup/>
+                 
                 <FinalAnswerPopup/>
+                {/* 
+                <HintBox />
+                <CorrectAnswerPopup/>
+                
                 <WrongAnswerPopup/>  */}
 
 

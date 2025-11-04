@@ -9,7 +9,7 @@ import nextBoxImg from "/nextbox.png";
 import finish from "/finish.png";
 import tryagain from "/tryagain.png";
 
-const jakartaFont = { fontFamily: '"Plus Jakarta Sans", sans-serif' };
+const jakartaFont = { fontFamily: '"Super Squad", sans-serif' };
 
 export default function HintBox() {
   const [index, setIndex] = useState(0); 

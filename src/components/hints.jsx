@@ -6,7 +6,7 @@ import nextBoxImg from "/nextbox.png";
 import prevBoxImg from "/prevbox.png";
 import okBoxImg from "/okbox.png";
 
-const jakartaFont = { fontFamily: '"Plus Jakarta Sans", sans-serif' };
+const jakartaFont = { fontFamily: '"Super Squad", sans-serif' };
 
 export default function HintBox() {
   const [index, setIndex] = useState(0);
@@ -69,7 +69,7 @@ export default function HintBox() {
           
 
           <p className="text-yellow-400 font-bold text-xl md:text-2xl mb-4 leading-relaxed max-w-3xl">
-            HINT {index + 1}:
+            HINT {index + 1} &nbsp;:
             <span className="text-white font-medium ml-3">{hints[index]?.text}</span>
           </p>
 
