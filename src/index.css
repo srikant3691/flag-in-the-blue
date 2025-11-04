@@ -215,3 +215,24 @@ body {
         letter-spacing: var(--tracking-normal);
     }
 }
+
+/* src/index.css or a global CSS file */
+
+/* --- Regular Style --- */
+@font-face {
+  font-family: 'Super Squad'; /* This is the name you will use in your components */
+  /* If the file is truly a .ttf, use 'truetype' */
+  src: url('./assets/fonts/Super\ Squad.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --- Italic Style --- */
+/* You were missing the @ symbol and the format was wrong for .ttf */
+@font-face {
+  font-family: 'Super Squad'; /* Use the same font-family name for different styles */
+  /* Define the italic version of the font */
+  src: url('./assets/fonts/Super\ Squad\ Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic; /* Correctly links this font file to the 'italic' style */
+}

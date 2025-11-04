@@ -1,5 +1,8 @@
 {
-    "files": [],
+    "include": [
+        "src/**/*",
+        "index.html"
+    ],
     "references": [],
     "compilerOptions": {
         "baseUrl": ".",
